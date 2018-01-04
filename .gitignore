@@ -1,0 +1,35 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/frontend/node_modules/*
+/.idea
+/.idea/*
+/config/database.yml
+
+
+# Ignore Byebug command history file.
+.byebug_history
+*.swp
+*.DS_Store
+# Ignore Byebug command history file.
+npm-debug.log*
+node_modules
+# Generated js bundles
+/app/assets/webpack/*
+/client/node_modules/*
+# Upload images
+/public/uploads
+/public/assets/*.gz
+dump.rdb
+/public/assets/
+/frontend/firefox_root/
+/frontend/yarn-error.log
+/frontend/yarn.lock
+/frontend/admin/dist/
+updatemenus.sh
+.vscode/*
