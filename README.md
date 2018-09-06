@@ -40,4 +40,10 @@
 
     http://localhost:3000/apidoc
 
+5.  重命名项目
+
+    ```
+      $ rails g rename:app_to NewName
+    ```
+
 
